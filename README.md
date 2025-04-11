@@ -5,7 +5,7 @@
 1. Install Node.js
 2. Install Playwright
 
-### Setup
+## Setup
 
 1. Clone this repository:
    git clone https://github.com/sbahrim/appgreat-task.git
@@ -20,7 +20,7 @@ GITHUB_TOKEN=your_github_token_here
 5. Run Playwright to install the required browsers:
 npx playwright install
 
-#### Running Tests
+## Running Tests
 
 E2E Tests:
 1. Ensure you have a valid storageState.json file for authentication. You can generate it by logging in to GitHub using Playwright:
@@ -39,12 +39,11 @@ npm run tests:api
 E2E test results will be available in the playwright-report directory or terminal.
 API test results will be displayed in the terminal.
 
-Project Structure
+## Project Structure
 page-objects: Contains Page Object Model (POM) classes for E2E tests.
 api: Contains API test specifications.
 e2e: Contains E2E test specifications.
 playwright.config.ts: Configuration file for Playwright.
 
-Author: 
-
+## Author: 
 Sergiu Bahrim
