@@ -45,5 +45,6 @@ api: Contains API test specifications.
 e2e: Contains E2E test specifications.
 playwright.config.ts: Configuration file for Playwright.
 
-Author
+Author: 
+
 Sergiu Bahrim
